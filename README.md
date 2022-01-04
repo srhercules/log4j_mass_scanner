@@ -33,7 +33,7 @@ Version: 1.0
 
 # Tips:
 - Servers list will saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
-- Detailed ogs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL, VULNERABLE or NOT_VULNERABLE).
+- Detailed logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL, VULNERABLE or NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
 - You can monitor threads running, opening new window of Powershell or CMD and run "tasklist | findstr /i psexec", collector will finish when not found PsExec process.
 
