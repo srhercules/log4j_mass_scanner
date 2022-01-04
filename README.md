@@ -1,5 +1,5 @@
 # Log4j Vulnerabilities Mass Scanner
-Multithreading mass scanner for Log4j vulnerabilities in all Active Directory domain hosts.
+## Scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner.
 
 Details:
 - Get enabled servers list from Active Directory.
