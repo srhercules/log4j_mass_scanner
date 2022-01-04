@@ -21,7 +21,7 @@ Version: 1.0
 - Permission do read computers on AD (Get-ADComputer).
 - Administrator privileges on all domain hosts.
 - Connectivity with ports 135 and 445 to all domain hosts.
-- PsExec requirements atended.
+- PsExec execution requirements atended.
 - Mail server with open relay to send mail.
 
 # Usage:
