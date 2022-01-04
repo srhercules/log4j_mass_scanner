@@ -27,19 +27,19 @@ Version: 1.0
 # Usage:
 - Direct download: https://github.com/srhercules/log4j_mass_scanner/raw/main/LOG4J.zip
 - Unzip LOG4J.ZIP to C:\LOG4J\.
-- Edit C:\LOG4J\LOG4J.PS1 and change #E-MAIL variables: $FROM, $TO, $SUBJECT, $SMTP_SERVER, $SMTP_PORT.
+- Edit C:\LOG4J\LOG4J.PS1 and change #E-MAIL variables: $FROM, $TO, $SUBJECT, $SMTP_SERVER and $SMTP_PORT.
 - Execute C:\LOG4J\LOG4J.PS1.
 - Dont use PsExec when running, the scanner will monitor psexec process to finish data collect.
 
 # Tips:
 - Servers list will saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
-- Data logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL VULNERABLE NOT_VULNERABLE).
+- Detailed ogs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL, VULNERABLE or NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
+- You can monitor threads running, opening new window of Powershell or CMD and run (tasklist | findstr /i psexec), collector will finish when not found PsExec process.
 
 # Comming soon:
 - Include fail reason.
 - Chart embebed to report.
-- You can monitor threads running opening new window of Powershell and run (tasklist | findstr /i psexec).
 
 # Images:
 ## - Console output
