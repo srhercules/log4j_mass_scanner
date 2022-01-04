@@ -5,10 +5,10 @@
 # Features:
 - Get enabled servers list from Active Directory.
 - Multithreading scan all domain hosts for Log4j vulnerabilities, using Qualys Scanner https://github.com/Qualys/log4jscanwin
-- Memory overload protection, pause execution when exced 80% memory used.
-- Generete CSV results.
-- Generete charts.
-- Generete logs details.
+- Memory overload protection, pause execution when exceed 80% memory used.
+- Generate CSV results.
+- Generate charts.
+- Generate logs details.
 - Send e-mail report.
 
 Created by: Hércules Gustavo Gusmao
@@ -17,7 +17,7 @@ Creation date: 03/01/2022
 
 Version: 1.0
 
-# Prerequirements
+# Requirements
 - Permission do read computers on AD (Get-ADComputer).
 - Administrator privileges on all domain hosts.
 - Connectivity with ports 135 and 445 to all domain hosts.
@@ -32,14 +32,14 @@ Version: 1.0
 - Dont use PsExec when running, the scanner will monitor psexec process to finish data collect.
 
 # Tips:
-- Servers list will saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
+- Servers list will be saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
 - Detailed logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL, VULNERABLE or NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
 - You can monitor threads running, opening new window of Powershell or CMD and run "tasklist | findstr /i psexec", collector will finish when not found PsExec process.
 
-# Comming soon:
+# Coming soon:
 - Include fail reason.
-- Chart embebed to report.
+- Chart embedded on report.
 
 # Images:
 ## - Console output
@@ -48,7 +48,7 @@ Version: 1.0
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Mail_Report.png)
 ## CSV parsed to Excel.
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Csv_Parsed.PNG)
-## Log datails
+## Log details
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Log_Detail.png)
 ## Charts
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Chart_Status.png)
