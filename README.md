@@ -1,7 +1,8 @@
 # Log4j Vulnerabilities Mass Scanner
 ## Automated scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner and detailed report.
+### Supported CVE(s): CVE-2021-4104, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105
 
-Details:
+# Details:
 - Get enabled servers list from Active Directory.
 - Multithreading scan all doamain hosts for Log4j vulnerabilities, using Qualys Scanner https://github.com/Qualys/log4jscanwin
 - Memory overload protection, pause execution when exced 80% memory used.
@@ -19,7 +20,8 @@ Version: 1.0
 # Prerequirements
 - Permission do read computers on AD (Get-ADComputer).
 - Administrator privileges on all domain hosts.
-- Connectivity whit ports 135 and 445 to all domain hosts.
+- Connectivity with ports 135 and 445 to all domain hosts.
+- PsExec requirements atended.
 - Mail server with open relay to send mail.
 
 # Usage:
