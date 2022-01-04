@@ -23,6 +23,7 @@ Version: 1.0
 - Mail server with open relay to send mail.
 
 # Usage:
+- Direct download: https://github.com/srhercules/log4j_mass_scanner/raw/main/LOG4J.zip
 - Unpack LOG4J.ZIP to C:\LOG4J\.
 - Edit C:\LOG4J\LOG4J.PS1 and change #E-MAIL variables: $FROM, $TO, $SUBJECT, $SMTP_SERVER, $SMTP_PORT.
 - Execute C:\LOG4J\LOG4J.PS1.
