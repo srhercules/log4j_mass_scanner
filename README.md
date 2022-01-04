@@ -32,3 +32,4 @@ Version: 1.0
 - Servers list will saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
 - Data logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL VULNERABLE NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
+- You can monitor threads running opening new window of Powershell and run (tasklist | findstr /i psexec).
