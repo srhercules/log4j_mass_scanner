@@ -1,5 +1,5 @@
 # Log4j Vulnerabilities Mass Scanner
-## Scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner.
+## Automated scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner.
 
 Details:
 - Get enabled servers list from Active Directory.
@@ -34,3 +34,12 @@ Version: 1.0
 - Data logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL VULNERABLE NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
 - You can monitor threads running opening new window of Powershell and run (tasklist | findstr /i psexec).
+
+# Images:
+## - Console output
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Console_Output_Example.png)
+## Mail Report with details
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Mail_Report_Example.png)
+## Chart
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Status_Template.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Log4j_Template.png)
