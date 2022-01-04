@@ -37,13 +37,13 @@ Version: 1.0
 
 # Images:
 ## - Console output
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Console_Output_Example.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Console_Output_Example.png)
 ## Mail report with details
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Mail_Report_Example.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Mail_Report_Example.png)
 ## CSV parsed to Excel.
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Csv_Parsed_Example.PNG)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Csv_Parsed_Example.PNG)
 ## Log datails
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Log_Detail_Example.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Log_Detail_Example.png)
 ## Charts
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Status_Template.png)
-![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Log4j_Template.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Chart_Status_Template.png)
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES/Chart_Log4j_Template.png)
