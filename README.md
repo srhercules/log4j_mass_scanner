@@ -1,5 +1,5 @@
 # Log4j Vulnerabilities Mass Scanner
-## Automated scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner.
+## Automated scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner and detailed report.
 
 Details:
 - Get enabled servers list from Active Directory.
@@ -38,8 +38,12 @@ Version: 1.0
 # Images:
 ## - Console output
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Console_Output_Example.png)
-## Mail Report with details
+## Mail report with details
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Mail_Report_Example.png)
-## Chart
+## CSV parsed to Excel.
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Csv_Parsed_Example.PNG)
+## Log datails
+![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Log_Detail_Example.png)
+## Charts
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Status_Template.png)
 ![alt text](https://github.com/srhercules/log4j_mass_scanner/blob/main/IMAGES_EXAMPLE/Chart_Log4j_Template.png)
