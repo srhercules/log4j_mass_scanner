@@ -1,5 +1,5 @@
 # Automated Log4j Vulnerabilities Mass Scanner
-## Scan thousands hosts in your Active Directory domain in minutes/hours. Scanner main features include multithreading and a detailed report that display, for instance, how many vulnerabilties were found in a given host.
+## Scan thousands hosts in your Active Directory domain in minutes/hours. Scanner main features include multithreading and a detailed report that display, for instance, how many vulnerabilties were found in each host, files paths with vulnerabilities, charts, top vulnerable hosts, summary and mail report.
 ### Supported CVE(s): CVE-2021-4104, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105
 
 # Features:
@@ -18,10 +18,10 @@ Creation date: 03/01/2022
 Version: 1.0
 
 # Requirements
-- Privileges to query AD computers (Get-ADComputer).
+- Query AD computers privileges (Get-ADComputer).
 - Administrator privileges on all domain hosts.
 - Connectivity with ports 135 and 445 to all domain hosts.
-- PsExec execution requirements atended.
+- PsExec execution privileges.
 - Mail server with open relay to send mail.
 
 # Usage:
@@ -29,13 +29,13 @@ Version: 1.0
 - Unzip LOG4J.ZIP to C:\LOG4J\.
 - Edit C:\LOG4J\LOG4J.PS1 and change #E-MAIL variables: $FROM, $TO, $SUBJECT, $SMTP_SERVER and $SMTP_PORT.
 - Execute C:\LOG4J\LOG4J.PS1.
-- Dont use PsExec when running, the scanner will monitor psexec process to finish data collect.
+- Don't use PsExec while running the scanner, since it monitors PsExec process's to finish data collection.
 
 # Tips:
 - Servers list will be saved on C:\LOG4J\COMPUTERS\SERVERS.CSV.
 - Detailed logs will be pupulated on C:\LOG4J\LOGS\ and moved to (FAIL, VULNERABLE or NOT_VULNERABLE).
 - Results with Chart, CSV and Log Detail will be saved on C:\LOG4J\RESULTS.
-- You can monitor threads running, opening new window of Powershell or CMD and run "tasklist | findstr /i psexec", collector will finish when not found PsExec process.
+- You can monitor scanner execution by running "tasklist | findstr /i psexec" on a new PowerShell window..Scan is concluded if no process is listed.
 
 # Coming soon:
 - Include fail reason.
