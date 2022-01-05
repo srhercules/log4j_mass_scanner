@@ -4,7 +4,7 @@
 
 # Features:
 - Get enabled servers list from Active Directory.
-- Multithreading scan all domain hosts for Log4j vulnerabilities, using Qualys Scanner https://github.com/Qualys/log4jscanwin
+- Multithreading scan all domain hosts using PsExec for Log4j vulnerabilities, using Qualys Scanner https://github.com/Qualys/log4jscanwin
 - Memory overload protection, pause execution when exceed 80% memory used.
 - Generate CSV results.
 - Generate charts.
