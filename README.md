@@ -1,5 +1,5 @@
-# Log4j Vulnerabilities Mass Scanner
-## Automated scan thousands hosts in your Active Directory domain in minutes, for Log4j vulnerabilities with multithreading mass scanner and detailed report.
+# Automated Log4j Vulnerabilities Mass Scanner
+## Scan thousands hosts in your Active Directory domain in minutes/hours. Scanner main features include multithreading and a detailed report that display, for instance, how many vulnerabilties were found in a given host.
 ### Supported CVE(s): CVE-2021-4104, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105
 
 # Features:
@@ -18,7 +18,7 @@ Creation date: 03/01/2022
 Version: 1.0
 
 # Requirements
-- Permission do read computers on AD (Get-ADComputer).
+- Privileges to query AD computers (Get-ADComputer).
 - Administrator privileges on all domain hosts.
 - Connectivity with ports 135 and 445 to all domain hosts.
 - PsExec execution requirements atended.
