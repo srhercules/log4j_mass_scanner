@@ -39,6 +39,7 @@ Version: 1.0
 
 # Coming soon:
 - Include fail reason.
+- Processor usage overload protection.
 - Chart embedded on report.
 
 # Images:
