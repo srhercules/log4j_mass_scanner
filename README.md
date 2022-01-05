@@ -3,13 +3,14 @@
 ### Supported CVE(s): CVE-2021-4104, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105
 
 # Features:
-- Get enabled servers list from Active Directory.
-- Multithreading scan over PsExec on all domain hosts for Log4j vulnerabilities, using Qualys Scanner https://github.com/Qualys/log4jscanwin
-- Memory overload protection, pause execution when exceed 80% memory used.
-- Generate CSV results.
-- Generate charts.
-- Generate logs details.
-- Send e-mail report.
+☆ Get enabled servers list from Active Directory included: OS, OU, IP and creation date.\
+☆ Multithreading scan over PsExec, using Qualys scanner.\
+☆ How many vulnerabilties were found in each host and file paths with vulnerabilities.\
+☆ Memory overload protection, pause execution when exceed 80% memory used.\
+☆ Generate CSV results.\
+☆ Generate charts.\
+☆ Generate detailed logs.\
+☆ Send e-mail report.\
 
 Created by: Hércules Gustavo Gusmao
 
