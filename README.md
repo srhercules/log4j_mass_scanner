@@ -10,6 +10,7 @@
 ☆ Generate CSV results.\
 ☆ Generate charts.\
 ☆ Generate detailed logs.\
+☆ Top 10 vulnerable hosts.\
 ☆ Send e-mail report.\
 
 Created by: Hércules Gustavo Gusmao
