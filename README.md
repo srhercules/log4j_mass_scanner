@@ -1,6 +1,12 @@
 # Automated Log4j Vulnerabilities Mass Scanner
-## Scan thousands hosts in your Active Directory domain in minutes/hours. Scanner main features include multithreading and a detailed report that display, for instance, how many vulnerabilties were found in each host, files paths with vulnerabilities, charts, top vulnerable hosts, summary and mail report.
+## Scan thousands hosts in your Active Directory domain in minutes/hours. Scanner main features include multithreading, overview and a detailed report about Log4j vulnerabilities in your enviroment, that display, for instance, how many vulnerabilties were found in each host, files paths with vulnerabilities, charts, top vulnerable hosts, summary and mail report.
 ### Supported CVE(s): CVE-2021-4104, CVE-2021-44228, CVE-2021-44832, CVE-2021-45046, CVE-2021-45105
+
+Created by: Hércules Gustavo Gusmao
+
+Creation date: 03/01/2022
+
+Version: 1.0
 
 # Features:
 ☆ Get enabled servers list from Active Directory included: OS, OU, IP and creation date.\
@@ -12,12 +18,6 @@
 ☆ Generate detailed logs.\
 ☆ Top 10 vulnerable hosts.\
 ☆ Send e-mail report.
-
-Created by: Hércules Gustavo Gusmao
-
-Creation date: 03/01/2022
-
-Version: 1.0
 
 # Requirements
 - Query AD computers privileges (Get-ADComputer).
