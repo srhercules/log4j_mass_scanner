@@ -42,7 +42,8 @@ Version: 1.0
 # Coming soon:
 - Include fail reason.
 - Processor usage overload protection.
-- Chart embedded on report.
+- Percentages to console and HTML body.
+- Chart embedded on mail report.
 
 # Images:
 ## - Console output
